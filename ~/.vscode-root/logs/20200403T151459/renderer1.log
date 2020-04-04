@@ -1,0 +1,496 @@
+[2020-04-03 15:34:22.038] [renderer1] [error] <semantic> TypeScript Server Error (3.7.5)
+Cannot read property 'parent' of undefined
+TypeError: Cannot read property 'parent' of undefined
+    at Object.deleteDeclaration (tsserver.js:120255:56)
+    at _loop_9 (tsserver.js:119840:47)
+    at ChangeTracker.finishDeleteDeclarations (tsserver.js:119847:21)
+    at ChangeTracker.getChanges (tsserver.js:119867:22)
+    at Function.ChangeTracker.with (tsserver.js:119391:32)
+    at Object.getCodeActions (tsserver.js:124870:68)
+    at tsserver.js:120431:121
+    at Object.flatMap (tsserver.js:468:25)
+    at Object.getFixes (tsserver.js:120431:23)
+    at tsserver.js:131114:35
+    at Object.flatMap (tsserver.js:468:25)
+    at Proxy.getCodeFixesAtPosition (tsserver.js:131112:23)
+    at IOSession.Session.getCodeFixes (tsserver.js:140767:64)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:139552:61)
+    at tsserver.js:140960:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:140951:28)
+    at IOSession.Session.executeCommand (tsserver.js:140960:33)
+    at IOSession.Session.onMessage (tsserver.js:140983:35)
+    at Interface.<anonymous> (tsserver.js:142298:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17): Error: <semantic> TypeScript Server Error (3.7.5)
+Cannot read property 'parent' of undefined
+TypeError: Cannot read property 'parent' of undefined
+    at Object.deleteDeclaration (tsserver.js:120255:56)
+    at _loop_9 (tsserver.js:119840:47)
+    at ChangeTracker.finishDeleteDeclarations (tsserver.js:119847:21)
+    at ChangeTracker.getChanges (tsserver.js:119867:22)
+    at Function.ChangeTracker.with (tsserver.js:119391:32)
+    at Object.getCodeActions (tsserver.js:124870:68)
+    at tsserver.js:120431:121
+    at Object.flatMap (tsserver.js:468:25)
+    at Object.getFixes (tsserver.js:120431:23)
+    at tsserver.js:131114:35
+    at Object.flatMap (tsserver.js:468:25)
+    at Proxy.getCodeFixesAtPosition (tsserver.js:131112:23)
+    at IOSession.Session.getCodeFixes (tsserver.js:140767:64)
+    at Session.handlers.ts.createMapFromTemplate._a.<computed> (tsserver.js:139552:61)
+    at tsserver.js:140960:88
+    at IOSession.Session.executeWithRequestId (tsserver.js:140951:28)
+    at IOSession.Session.executeCommand (tsserver.js:140960:33)
+    at IOSession.Session.onMessage (tsserver.js:140983:35)
+    at Interface.<anonymous> (tsserver.js:142298:27)
+    at Interface.emit (events.js:200:13)
+    at Interface._onLine (readline.js:314:10)
+    at Interface._normalWrite (readline.js:459:12)
+    at Socket.ondata (readline.js:170:10)
+    at Socket.emit (events.js:200:13)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at Socket.Readable.push (_stream_readable.js:210:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+	at Function.create (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:49149)
+	at h.dispatchResponse (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:213785)
+	at h.dispatchMessage (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:212703)
+	at /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:212179
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:48:541)
+	at t.Reader.onLengthData (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:219256)
+	at Socket.<anonymous> (/usr/share/code/resources/app/extensions/typescript-language-features/dist/extension.js:1:218904)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-04-03 16:11:48.794] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-03 16:12:07.666] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-03 16:12:16.358] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-03 16:12:21.171] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-03 16:19:26.833] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-03 16:19:45.065] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 17:31:35.909] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 17:31:41.644] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 17:32:50.382] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 17:35:45.290] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 17:39:30.738] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 17:41:20.982] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 17:43:53.961] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 18:44:12.067] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 18:53:06.696] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 18:53:27.612] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 18:56:57.581] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 18:57:07.064] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 19:40:18.321] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 19:40:29.032] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 19:40:34.209] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 19:49:34.980] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 19:50:11.530] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 20:52:53.040] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 22:29:21.310] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 22:29:34.692] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 22:30:26.627] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 22:31:22.416] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:16:04.870] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:16:16.812] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:16:20.659] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:29:11.155] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:29:14.198] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:29:29.505] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:30:02.474] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:30:34.868] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:30:45.870] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:30:50.975] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:30:52.474] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:49:26.829] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-04 23:49:50.188] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-05 02:33:27.934] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-05 03:12:45.256] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-05 03:12:48.626] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-05 03:12:58.874] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-05 03:13:07.505] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70
+[2020-04-05 03:37:20.762] [renderer1] [error] name must not be falsy: Error: name must not be falsy
+	at Function.validate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:799)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:380:748)
+	at new w (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:369:559)
+	at asSymbolInformation (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:449:22)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:42
+	at Array.map (<anonymous>)
+	at Object.asSymbolInformations (/home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/protocolConverter.js:429:23)
+	at /home/abhinav/.vscode/extensions/octref.vetur-0.24.0/node_modules/vscode-languageclient/lib/client.js:1088:70

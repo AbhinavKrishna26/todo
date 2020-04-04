@@ -1,0 +1,217 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/abhinav
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :fire/winter/package.json
+> git ls-files --stage -- /home/abhinav/fire/winter/package.json
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/components/firebaseConfig.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/firebaseConfig.js
+> git show :fire/winter/src/components/firebaseinit.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/firebaseinit.js
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/components/firebaseConfig.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/firebaseConfig.js
+> git show :fire/winter/src/components/firebaseinit.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/firebaseinit.js
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/components/Dashboard.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Dashboard.vue
+> git show :fire/winter/src/components/NewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/NewTodo.vue
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/components/EditTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/EditTodo.vue
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/components/Navbar.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Navbar.vue
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git show :fire/winter/src/components/NewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/NewTodo.vue
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git show :fire/winter/src/App.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/App.vue
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/App.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/App.vue
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/App.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/App.vue
+> git show :fire/winter/index.html
+> git ls-files --stage -- /home/abhinav/fire/winter/index.html
+> git show :fire/winter/src/App.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/App.vue
+> git show :fire/winter/src/components/Navbar.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Navbar.vue
+> git show :fire/winter/src/App.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/App.vue
+> git show :fire/winter/src/components/Dashboard.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Dashboard.vue
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git show :fire/winter/src/components/Navbar.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Navbar.vue
+> git show :fire/winter/src/main.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/main.js
+> git show :fire/winter/src/App.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/App.vue
+> git show :fire/winter/src/components/Dashboard.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Dashboard.vue
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git show :fire/winter/src/components/NewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/NewTodo.vue
+> git show :fire/winter/src/App.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/App.vue
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git show :fire/winter/index.html
+> git ls-files --stage -- /home/abhinav/fire/winter/index.html
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git show :fire/winter/src/App.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/App.vue
+> git show :fire/winter/src/components/NewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/NewTodo.vue
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git show :fire/winter/src/components/Dashboard.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Dashboard.vue
+> git show :fire/winter/src/components/firebaseinit.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/firebaseinit.js
+> git show :fire/winter/src/components/firebaseConfig.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/firebaseConfig.js
+> git show :fire/winter/src/components/firebaseinit.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/firebaseinit.js
+> git show :fire/winter/src/components/HelloWorld.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/HelloWorld.vue
+> git show :fire/winter/src/components/Navbar.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Navbar.vue
+> git show :fire/winter/src/components/NewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/NewTodo.vue
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git show :fire/winter/src/components/EditTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/EditTodo.vue
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git show :fire/winter/src/components/Dashboard.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Dashboard.vue
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git show :fire/winter/src/components/NewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/NewTodo.vue
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git show :fire/winter/src/components/Dashboard.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Dashboard.vue
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git show :fire/winter/src/components/NewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/NewTodo.vue
+> git show :fire/winter/src/components/EditTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/EditTodo.vue
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git show :fire/winter/src/components/EditTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/EditTodo.vue
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git show :fire/winter/index.html
+> git ls-files --stage -- /home/abhinav/fire/winter/index.html
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git show :fire/winter/src/components/Register.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Register.vue
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git show :fire/winter/src/components/Navbar.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Navbar.vue
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git show :fire/winter/src/components/Register.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Register.vue
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git show :fire/winter/src/components/Register.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Register.vue
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git show :fire/winter/src/components/Navbar.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Navbar.vue
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git show :fire/winter/src/components/Navbar.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Navbar.vue
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git show :fire/winter/src/main.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/main.js
+> git show :fire/winter/src/router/index.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/router/index.js
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git show :fire/winter/src/components/Register.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Register.vue
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git show :fire/winter/src/components/Navbar.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Navbar.vue
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git show :fire/winter/src/components/EditTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/EditTodo.vue
+> git show :fire/winter/src/components/Navbar.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Navbar.vue
+> git check-ignore -v -z --stdin
+> git show :fire/winter/src/main.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/main.js
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git show :fire/winter/src/main.js
+> git ls-files --stage -- /home/abhinav/fire/winter/src/main.js
+> git show :fire/winter/src/components/Navbar.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Navbar.vue
+> git show :fire/winter/src/components/Login.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Login.vue
+> git show :fire/winter/src/components/Navbar.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/Navbar.vue
+> git show :fire/winter/src/components/EditTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/EditTodo.vue
+> git show :fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git ls-files --stage -- /home/abhinav/fire/winter/src/components/ViewTodo.vue
+> git cat-file -s 3ca2569d5d0bfad2671383df10d986a6e622c6f1
+> git show :fire/winter/src/components/ViewTodo.vue
+> git check-ignore -v -z --stdin

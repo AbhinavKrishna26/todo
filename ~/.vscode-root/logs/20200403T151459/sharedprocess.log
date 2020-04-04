@@ -1,0 +1,15 @@
+[2020-04-03 15:15:05.354] [sharedprocess] [info] main {"machineId":"e3134b37aebe57cf38eca0c89900c7e1ce29b166b355649be669510d1bbca302","windowId":2}
+[2020-04-03 15:15:11.887] [sharedprocess] [info] Deleted from disk ms-python.python /home/abhinav/.vscode/extensions/ms-python.python-2020.3.69010
+[2020-04-03 15:15:14.482] [sharedprocess] [info] Installing extension: ms-python.python
+[2020-04-03 15:15:45.349] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-04-03 15:18:26.370] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/07df4490-0a69-43ed-96c9-831245fba683
+[2020-04-03 15:18:29.014] [sharedprocess] [info] Extracted extension to /home/abhinav/.vscode/extensions/.ms-python.python-2020.3.71659: ms-python.python
+[2020-04-03 15:18:29.014] [sharedprocess] [info] Renamed to /home/abhinav/.vscode/extensions/ms-python.python-2020.3.71659
+[2020-04-03 15:18:29.018] [sharedprocess] [info] Installation completed. ms-python.python
+[2020-04-03 15:18:29.451] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2020-04-05 03:54:52.814] [sharedprocess] [info] Installing extension: esbenp.prettier-vscode
+[2020-04-05 03:55:29.713] [sharedprocess] [info] Downloaded extension: esbenp.prettier-vscode /tmp/43a3b2ed-39fd-4445-9147-88c48dcc80ce
+[2020-04-05 03:55:29.894] [sharedprocess] [info] Extracted extension to /home/abhinav/.vscode/extensions/.esbenp.prettier-vscode-4.0.0: esbenp.prettier-vscode
+[2020-04-05 03:55:29.894] [sharedprocess] [info] Renamed to /home/abhinav/.vscode/extensions/esbenp.prettier-vscode-4.0.0
+[2020-04-05 03:55:29.895] [sharedprocess] [info] Installation completed. esbenp.prettier-vscode
+[2020-04-05 03:55:29.957] [sharedprocess] [info] Extensions installed successfully: esbenp.prettier-vscode
