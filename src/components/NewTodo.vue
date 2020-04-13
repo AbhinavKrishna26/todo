@@ -22,9 +22,15 @@
 </template>
 
 <script>
+import moment from "moment";
+ import DatePicker from 'vue2-datepicker';
+  import 'vue2-datepicker/index.css';
 import db from "./firebaseinit";
 export default {
     name: 'new-todo',
+     components: {
+        DatePicker
+    },
     data (){
         return{
             todo_id: null,
@@ -37,7 +43,7 @@ export default {
             db.collection('todos').add({
                 todo_id: this.todo_id,
                 description: this.description,
-                date: this.date
+                date: Date(this.date.seconds*1000)
             })
             .then(docRef => this.$router.push('/'))
             .catch(error => console.log(err))
